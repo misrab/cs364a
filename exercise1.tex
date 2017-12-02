@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+\usepackage{enumitem} % enumeration like (a), (b), ...
+\usepackage[parfill]{parskip} % skip lines instead of indenting on paragraphs
+
+
+\begin{document}
+
+\title{CS364A: Exercise Set \#1}
+\author{Misrab Faizullah Khan}
+
+\maketitle
+
+
+\section{Exercise 1}
+
+In summary, in the Olympic badminton game, four groups of four competed in round robin, and the top two teams (for eight in total) moved on to the second deathmatch round.
+
+The problem is that in two groups there was misbehaviour: the two very good chinese teams lost on purpose, and their opponents tried to as well. This is because in the deathmatch round you want to play weaker teams, and you also want to face the top teams as late as possible.
+
+Some suggestions to reduce the incentive to lose a match:
+
+\begin{enumerate}
+\item Have a single round, and order the teams by total number of points scored.
+\item Retain two rounds, but introduce a point handicap in the next round based on the previous round's scores.
+\item Have two deathmatch rounds.
+\end{enumerate}
+
+
+\section{Exercise 2}
+
+\begin{enumerate}[label=(\alph*)]
+
+\item Four players (the men), with the same five actions (the women). The solution proposed in the movie is for nobody to go for the blonde, and instead go for her friends. This is in fact not a Nash equilibrium, because for player $i$, if all other players have chosen a friend, it makes sense to deviate to the blonde!
+
+\item Make the blonde have a very high probability of rejecting anyone. Thus the expected payoff is low compared to just going for the others. In other words, payoff for the blonde may be $0.01 * 20$, whereas otherwise one gets $10$ for sure.
+
+\end{enumerate}
+
+
+\section{Exercise 3}
+\section{Exercise 4}
+\section{Exercise 5}
+\section{Exercise 6}
+\section{Exercise 7}
+\section{Exercise 8}
+
+
+\end{document}
